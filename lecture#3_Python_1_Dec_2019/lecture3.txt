@@ -1,0 +1,35 @@
+lecture 3 
+operator 
+comparison
+control flow
+operations
+------------------------
+slack channel
+submit you assignment or tag 
+it expert---- facebook group---tag your assignment over there
+previous assignment was to apply all string methods ---it was lecture 2
+---------------------------------------------------------- 
+operators +-*/
+
++ use in string as concatination
++ use is integer perform addition
++ with float perform addtion......
+-----------------------------------------------
+assign operator
+=
+*=
++=
+-=
+-----------------
+comparison
+==
+>=
+<=
+!= both same<>
+-----------
+logic operators
+'a'=='a' & 'b'=='b' & 'c'=='c'  
+give typr error instead 
+('a'=='a') & ('b'=='b' )&('c'=='c')
+-----------
+bitwise operators

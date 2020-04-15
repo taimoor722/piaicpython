@@ -1,0 +1,109 @@
+alam.shahid85@gmail.com
+usmankhan@numl.edu.pk
+some basic opertion we have to perform with string
+
+-----------
+name ="MUHammaD QaSiM"
+
+(now a days we use regula expression so only defined formate get 
+entered other wise
+rejeted is)
+
+
+name1="MUHammaD QaSiM"
+name2="muhammad Qasim"
+
+they have different address name1 and name2
+print(name1==name2)
+output-->False
+there are two type of operation perform
+in memory  or inline 
+go to physical address and change value is called in memory
+so if we want to change it temperorly then it is called inline 
+it does not change permenantly
+
+if you accidently change in memeory then you need to creat checks locks
+
+operation that go into its address and change it in memeroy
+operation that only temperory change it  but whenn you call it again
+it will show  same previouse result 
+
+
+use shift +tab in side brackets  and see
+
+------------attributes of string datat type
+after dot press tab u will get menu u will see list contain
+name.methods
+
+dir(name)   --this will give you all methods / attributes
+
+------------
+len()
+name.title()
+name.strip()
+name.lstrip()
+name.find("m")
+name.lower()
+it will only get first m in name string 
+------
+in slicing 
+[start:end:step]
+start index included
+end index does not included
+step how many step to take 
+list tuple and string on all these we can use slicing
+-------
+a="We are pakistan we love our country!"
+a.find("pakistan")
+output--> 7
+
+a[7:15:1]
+ouput-->'pakistan'
+
+-----------create dynamic  app that find paksitan and bring it-------
+
+a[a.find("pakistan"):15]
+output-->'pakistan'
+
+-------------
+a.split()  --it split them by default by space and put them in list (inline operation)
+['we,'are','pakistan','we','love','our','country']
+
+
+a.split('e')
+['w', ' ar', ' pakistan w', ' lov', ' our country']
+
+----------------------------------------------concatination
+concatination: attaching variable with text or string
+--
+using %s
+
+name='taimoor'
+fater="arif"
+print('my good brother %s %s ia a good boy '%(name, arif))   s--- is for string like in re.exprssion
+output---> my good brother taimoor arif is a good boy 
+--
+using use + sign
+rint('my good brother' +name+father+' ia a good boy')
+output---> my good brother taimoor arif is a good boy 
+
+##problem with + is that you cannot add integer or float variable
+for that convert variable in to string type the u  text+ str(varaible) + text
+score=200
+print("pakistan score is " + str(score))
+
+output--> pakistan score is 200        ---this is inline  
+
+---
+using f" text text {variable} text tex  {variable}"
+
+print(f"my good brother{name} {father} ia a good boy")
+output---> my good brother taimoor arif is a good boy 
+---
+"Name: {0},\n father name :{1}".formate(name,father)
+
+output---> 
+Name: taimoor
+father name : arif
+------------------------------------------------
+

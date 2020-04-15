@@ -1,0 +1,275 @@
+today 
+>data type python 
+>operator
+>operant 
+-----
+zen of python:
+jupyter-sourcefile-write-import this 
+------------
+data type :it is object --it has class 
+class it belong to has specfic methods and attributes 
+and another object belong to this class get same methonds and attributes
+
+methods :actions we can get them perform
+attributes : funtion
+
+integer,float ==numerical power
+
+every data type has its own methods and attributes
+now how to see all methods and attributes and find relevent 
+methods and attributes as per need of hr
+
+following are some of data types
+
+>set
+>tuple
+>list
+>dictionary 
+>string
+
+if you play with two different data type some time it will generate error
+for that we raise exception
+
+we can create our own data type
+by using pre existing data types
+
+we can create new data type using pre-existing data types
+link link list we have to create but python have library which
+might already have new data type created by come one and is in library
+-----------
+variable: variable that can be change 
+
+like in facebook we have our name our pic and our notifications 
+and facebook formate get personalize according to my  profile
+
+variable are dynamic
+
+so if you create a dynamic application that can change 
+we put it in variable 
+so some time we need static application like want to delive message to all we use static
+but if you want to personalif message by adding name who is reciecing we you
+dynamic and put variable 
+set= no repetation
+tuple = no change once created 
+list = can be change like insert slice etc
+
+in tuple,list,set we have index 
+dictionary == it has no index instead it has keys :values
+string 
+
+every data type has its own functions we can perform
+
+=-*/%** are operation
+or line  run by computer 
+--------------
+5 + 7  this whole line is called operation
+----------
+(doctor also perform operation and its tool called operator)
+so + sign here is operator
+-------
+(and patience is called oprand)
+so 5  and 7 are oprand
+------
+when you perform complex operation  meaning using many operators
+
+8 * 7 + 3 /2 - 4
+
+rule we follow to solve this is PEMDAS
+
+P=paranthesis
+E=exponent
+M=multiply
+D=divide
+A=add
+S=subtract
+so first  8*7 happen 
+then 3/2 happen 
+then there answer get added by  +
+and then this answer get subtrated by -4
+so 53.3
+
+so our answer is in float and we gave input in integers
+so a complex operation performed
+
+now make it a variable make it a dynamic
+let creat variable
+a=7   --->this is also opertion ans it is called assign operation 
+we use  = sign
+(search opertors in python ---tools auzar)
+we must know which tool/operator/auzar to use at what time
+so
+a=7
+b=7
+print(a)
+print(b)
+output
+7
+7
+
+lets talk about memory managment now
+so in back end some physical memeroy is being used and i has address
+so when we store data in variable by using = sign
+and store in memory by address 
+so when you call a or b it will use it address and bring you 7
+
+to see memeory address in python
+use --->id funtion
+print(id(a))
+print(id(b))
+
+94292645262400
+94292645262400
+
+in python we have two types of copy
+1.shallow copy
+2.deep copy
+
+deep copy: content get copy
+shallow copy:only address get copy also called copy by address
+
+shallow copy is fast than deep copy
+
+consider the chairs are memory address 
+and on each memory address i can store one thing
+and class is array
+chair one is called ali
+b baraber ha ali ka
+so i can do that i make copy of ali and put him on new chair (classic method)
+
+--------
+so to see data type of any data type 
+so to see varable data type
+we have pre define funtion
+
+type(a)
+or u can also add direct value 
+so it is pass by reference  or pass by referene
+
+so this is a and it is pass by reference
+
+print(type(a))
+output--> float
+
+similarly
+c=True
+d=False
+print(type(c))
+output-->
+boolen 
+boolen
+
+d="23.0"
+print(type(d))
+output-->stinrg
+
+print(type("""i love pakistan"""))
+output-->string
+
+name = ["ali","taim",20,True,False]
+we call list elements  by index
+
+from left to right indexing
+          0      1    2  3    4
+name = ["ali","taim",20,True,False]
+
+form right to left indexing
+
+
+name = ["ali","taim",20,True,False]
+          -5    -4    -3  -2   -1
+---------------
+in old language or in numpy we have arry/list and it has data type same 
+called homogeneious   --all data type has same memory 
+hetrogeneious --- store different data type
+
+>arry size is fix (so in numpy also we use homogeneious)
+
+
+
+name = ["ali","taim",20,True,False]
+print(type(name))
+ouptput--list
+
+using () will make it tuple-- and back end opeation change
+tuple= ("ali","taim",20,True,False)
+indexing also apply to this
+benefit of index
+
+print(name[4]) 
+to call by index give variable with square brackect and init index 
+varaible[index]
+
+so if you want to be good in programming you should be able to interpreter as programming 
+language will interpret like you know already what python will do this
+so bugges and error alos get find by looking each line and interpreting it
+---------------------------------------
+another data type we have is 
+set
+name = {"ali","taim","ali","zain"}
+print(name)
+output = "ali","taim","zain"
+
+this is set and as ali is more then one time so it will only print it one time no repeating
+ 
+***set is use to give unique values
+so order does not matter  
+so that s why every time you print it will give you values in different 
+order  but no repeted value 
+so it is good to get 
+--------------
+how to change one data type to other type 
+
+name is set 
+so lets change it in to list
+
+name=list(name) 
+list() funtions will change is temprorly so we have to assign it to variable
+so we assign it to same varaible name
+now name is not set but list
+type
+
+
+*in list tuple index no if impotant and fixed
+------------
+dictionray 
+why we need dictionary 
+when ever i add value 
+to name,father name,age
+some one will say father name or age first
+
+so we need dictionary 
+we are replacing index number with key so we can name key and by 
+providing key only then you can assign value in dictionray
+so we always have to pass key : then value
+this way in father key only father name will get 
+in age key only age value will get entered
+
+always use name of variable as per what it is for don't use nmae that 
+after month you see your program you cannot interpret it 
+
+>mutable:
+>immutable:
+
+key----hash funtion:
+what is hashable and inhashable:
+--
+any data type whom hash function can be applied can be made key in dictionary
+we can use key: stinrg,integer
+
+
+data ={"name":"taim",
+       "father:"arif",
+       "age":27,
+      }
+
+so instead using index to call "taim"
+we now use key 
+dictionary has no index
+
+print(data["name"])
+output--> taim
+varaibale[key]
+
+
+
+
